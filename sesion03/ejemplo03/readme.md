@@ -1,74 +1,63 @@
-## Ejemplo 04
+## Ejemplo 03
 
-### Módulo HTTP Server
+### Numpy
 
-Ofrece funcionalidad como servidor HTTP.
+Numpy es una librería de Python, que agrega mayor soporte de matrices y vectores al lenguaje, así como mayor velocidad en procesamiento de los mismos. Numpy es la base para gran cantidad de librerías de *data science* y *machine learning*.
 
-`http-ejemplo.py`
+Para instalarlo basta con correr `pip3 install numpy`.
+
+`uso_numpy.py`
+
 ```python
-In [1]: import http.server
+In [1]: import numpy as np
 
-In [2]: http.server? 
+In [2]: a1 = np.array([1,2,3])
 
-Type:        module
-String form: <module 'http.server' from '/usr/lib/python3.6/http/server.py'>
-File:        /usr/lib/python3.6/http/server.py
-Docstring:  
-HTTP server classes.
+In [3]: type(a1)                                                                                                                     
+Out[3]: numpy.ndarray
 
-Note: BaseHTTPRequestHandler doesn't implement any HTTP request; see
-SimpleHTTPRequestHandler for simple implementations of GET, HEAD and POST,
+In [4]: a1[0]                                                                                                                        
+Out[4]: 1
 
-In [4]: http.server.SimpleHTTPRequestHandler?  
+In [5]: a2 = np.full((3,3), True, dtype=bool) 
 
-Init signature: http.server.SimpleHTTPRequestHandler(request, client_address, server)
-Docstring:     
-Simple HTTP request handler with GET and HEAD commands.
+In [6]: a2                                                                                                                           
+Out[6]: 
+array([[ True,  True,  True],
+       [ True,  True,  True],
+       [ True,  True,  True]])
 
-This serves files from the current directory and any of its
-subdirectories.  The MIME type for files is determined by
-calling the .guess_type() method.
+In [7]: a3 = np.arange(5, 10)
 
-In [4]: exit()
+In [8]: a3                                                                                                                           
+Out[8]: array([5, 6, 7, 8, 9])
 
-$ python3 -m http.server
+In [9]: np.sum(a3)                                                                                                                   
+Out[9]: 35
 
-Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) 
+In [10]: a4 = np.arange(10)                                                                                                          
+
+In [11]: a4                                                                                                                          
+Out[11]: array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+In [12]: a4.reshape(2, -1)                                                                                                           
+Out[12]: 
+array([[0, 1, 2, 3, 4],
+       [5, 6, 7, 8, 9]])
 ```
 
-Al acceder a http://0.0.0.0:8000/, se verá algo como esto:
+`cuadrado_magico.py`
 
-![Imagen](server.png)
+Detecta si un array de 2 dimensiones de numpy, es un cuadrado mágico. Un cuadrado mágico se compone de un array de dimensiones n x n, en los cuiales cada fila y columna, tendrá el mismo valor, sumando cada fila y columna. Supón que los valores en el array no estarán repetidos en ningún momento.
 
-### Módulo urllib
+```
+[[2 7 6]
+ [9 5 1]
+ [4 3 8]]
+Es cuadrado mágico? True
 
-urllib es un paquete que contiene módulos centrados en abrir y leer herramientas.
-
-`urllib-ejemplo.py`
-```python
-In [1]: import urllib
-
-In [2]: urllib?  
-
-Type:        module
-String form: <module 'urllib' from '/usr/lib/python3.6/urllib/__init__.py'>
-File:        /usr/lib/python3.6/urllib/__init__.py
-Docstring:   <no docstring>
-
-In [3]: from urllib import request 
-
-In [4]: request?
-
-Type:        module
-String form: <module 'urllib.request' from '/usr/lib/python3.6/urllib/request.py'>
-File:        /usr/lib/python3.6/urllib/request.py
-Docstring:  
-An extensible library for opening URLs using a variety of protocols
-
-In [5]: r = request.urlopen("http://www.example.com")
-
-In [6]: r.read()
-
-Out[6]: b'<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset="utf-8" />\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <style type="text/css">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 50px;\n        background-color: #fff;\n        border-radius: 1em;\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        body {\n            background-color: #fff;\n        }\n        div {\n            width: auto;\n            margin: 0 auto;\n            border-radius: 0;\n            padding: 1em;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\n    domain in examples without prior coordination or asking for permission.</p>\n    <p><a href="http://www.iana.org/domains/example">More information...</a></p>\n</div>\n</body>\n</html>\n'
-
+[[2 7 6]
+ [9 1 5]
+ [3 4 8]]
+Es cuadrado mágico? False
 ```

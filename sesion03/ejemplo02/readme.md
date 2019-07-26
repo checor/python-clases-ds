@@ -1,3 +1,5 @@
+## Ejemplo 02
+
 ## Librería estándar
 
 La libería estándar ofrece una cantidad de objetos y funciones, algunos escritos en C, otros en Python. Posee desde insteración del sistema operativo (os), fechas (datetime), hasta un pequeño servidor web!
