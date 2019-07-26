@@ -2,7 +2,7 @@
 
 ## Librería estándar
 
-La libería estándar ofrece una cantidad de objetos y funciones, algunos escritos en C, otros en Python. Posee desde insteración del sistema operativo (os), fechas (datetime), hasta un pequeño servidor web!
+La libería estándar ofrece una cantidad de objetos y funciones, algunos escritos en C, otros en Python. Posee desde insteración del sistema operativo (os), fechas (datetime), hasta nuestro propios módulos de Machine Learning!
 
 https://docs.python.org/3/library/
 
