@@ -48,7 +48,7 @@ array([[0, 1, 2, 3, 4],
 
 `cuadrado_magico.py`
 
-Detecta si un array de 2 dimensiones de numpy, es un cuadrado mágico. Un cuadrado mágico se compone de un array de dimensiones n x n, en los cuiales cada fila y columna, tendrá el mismo valor, sumando cada fila y columna. Supón que los valores en el array no estarán repetidos en ningún momento.
+Detecta si un array de 2 dimensiones de numpy es un cuadrado mágico. Un cuadrado mágico se compone de un array de dimensiones n x n, en los cuales cada fila y columna tendrán el mismo valor, sumando cada fila y columna. Supón que los valores en el array no estarán repetidos en ningún momento.
 
 ```
 [[2 7 6]
