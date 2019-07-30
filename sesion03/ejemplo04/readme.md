@@ -2,7 +2,7 @@
 
 ### Creando tu propio módulo
 
-Los módulos en Python, son practicamente archivos con extensión .py, pensados para ser reutilizados. En ellos, se definen funciones, clases y variables, así como código de inicialización.
+Los módulos en Python son practicamente archivos con extensión .py pensados para ser reutilizados. En ellos, se definen funciones, clases y variables, así como código de inicialización.
 
 `mi_primer_modulo.py`
 
@@ -26,7 +26,7 @@ El código que contiene cualquier código sólo es ejecutado una vez, una vez qu
 
 `tablas.py`
 
-Este módulo deberá contener una función llamada `tabla(n)`, y deberé de imprimir la tabla del número n en pantalla. Sólo debe de contener la función dentro, sin que sea llamado.
+Este módulo deberá contener una función llamada `tabla(n)`, y deberá de imprimir la tabla del número n en pantalla. Sólo debe de contener la función dentro, sin que sea llamado.
 
 ```python
 In [1]: !cat tablas.py
@@ -56,7 +56,7 @@ Type:      function
 
 `tablas2.py`
 
-Los scripts en Python, pueden ser módulo y función a la vez, agregando una sección que sólo se ejecutará si se llamó directamente:
+Los scripts en Python pueden ser módulo y función a la vez, agregando una sección que sólo se ejecutará si se llamó directamente:
 
 ```python
 if __name__ == "__main__":
