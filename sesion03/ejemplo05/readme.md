@@ -2,7 +2,7 @@
 
 ### Paquetes en Python
 
-Son directorios que contienes más módulos o paquetes. La única diferencia entre un paquete y una directorio, es el archivo `__init__.py`, que indica la inicialización de un módulo.
+Son directorios que contienes más módulos o paquetes. La única diferencia entre un paquete y un directorio es el archivo `__init__.py`, que indica la inicialización de un módulo.
 
 `utilerias/__init__.py`
 
@@ -18,7 +18,7 @@ File:        ~/dev/python-clases/sesion03/ejemplo04/utilerias/__init__.py
 Docstring:   Conjunto de modúlo que resuelve pequeñas tareas
 ```
 
-Si colocamos los módulos realizados anteriormente, se podrán utilizar, de la siguiente manera:
+Si colocamos los módulos realizados anteriormente, se podrán utilizar de la siguiente manera:
 
 ```
 $ tree utilerias
