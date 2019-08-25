@@ -4,7 +4,7 @@
 
 * Conocer los módulos incluidos con Python.
 * Llamar y utilizar la ayuda de los módulos.
-* Crear nuestro propios módulos y pauqetes.
+* Crear nuestro propios módulos y paquetes.
 
 ## Contenido
 

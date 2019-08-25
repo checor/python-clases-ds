@@ -2,7 +2,7 @@
 
 `reservaciones/`
 
-Organizar el programa comprardor de precios de Bedu Travels, en un paquete llamado `comparador` con dos módulos: `mejor_precio.py` y `precio_promedio.py`. El primer módulo indicará el mejor destino y precio, mientras que el segundo, le indicará el precio promedio de todos los destinos que el usuario ha comparado.
+Organizar el programa comparador de precios de Bedu Travels en un paquete llamado `comparador` con dos módulos: `mejor_precio.py` y `precio_promedio.py`. El primer módulo indicará el mejor destino y precio, mientras que el segundo le indicará el precio promedio de todos los destinos que el usuario ha comparado.
 
 ```
 $ python3 main.py 

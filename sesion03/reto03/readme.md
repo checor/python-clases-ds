@@ -2,7 +2,7 @@
 
 `mejor_precio.py`
 
-Un usuario está comparando precios en Bedu Travels para elegir un destino. Ha seleccionado paquetes con diferentes opciones, y desea decidirse por el mejor precio. La selección del usuario está formada de la siguiente manera, en un array de numpy. Muestre al usuario la mejor opción en cuanto a precio.
+Un usuario está comparando precios en Bedu Travels para elegir un destino. Ha seleccionado paquetes con diferentes opciones y desea decidirse por el mejor precio. La selección del usuario está formada de la siguiente manera en un array de numpy. Muestre al usuario la mejor opción en cuanto a precio.
 
 ![](valores.png)
 

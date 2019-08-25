@@ -2,7 +2,7 @@
 
 `mejor_precio.py`
 
-De forma similar al ejemplo anterior, modifica `mejor_precio.py`, para que se pueda utilizar como módulo o como archivo independiente, su funcion de calcular mejor precio. Agrega docstrings para indicar al usuario final como utilizarlo.
+De forma similar al ejemplo anterior, modifica `mejor_precio.py` para que la función de calcular un mejor precio se pueda usar como módulo o como archivo independiente. Agrega docstrings para indicar al usuario final cómo utilizarlo.
 
 
 ```python
