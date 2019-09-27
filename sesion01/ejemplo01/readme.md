@@ -2,7 +2,7 @@
 
 Bienvenido a Python! Python es un lenguaje de programación de alto nivel, fácil de usar, versátil y potente. Es uno de los lenguajes más populares actualmente según el ínidce de TIOBE:
 
-![](../imagenes/index_tiobe.png)
+![TIOBE Index](../imagenes/index_tiobe.png)
 
 ## Objetivo
 
@@ -15,11 +15,11 @@ Python tiene diversos campos de aplicación:
  - Aplicaciones multiplataforma (PyQt, TCL, click..)
  - Aplicaciones móviles (Kivy)
  - Electrónica, IOT (Micropython)
- - Data science (Tensorflow, Scipy...)
+ - Data science (Tensorflow, Scipy, Pandas...)
  - Robótica (ROS)
 
 ## Instalación
-La instalación dependerá del sistema operativo que tengamos. Para este curso, cualquier versión superior a Python 3.4 es válida para seguirlo.
+La instalación dependerá del sistema operativo que tengamos. Para este curso, cualquier versión superior a Python 3.5 es válida para este módulo.
 
 ### Windows
 

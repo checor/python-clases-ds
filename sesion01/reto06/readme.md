@@ -1,20 +1,20 @@
-## Actividad final: reservacion_apartado.py
+## Actividad final: recorridos-distancia.py
 
-Modificar el script lista_reservacion.py, para preguntar al usuario si quiere conocer o no el monto de apartado, una nueva columna de cantidad, subtotal (cantaidad * precio), y el costo del apartado antes del total, equivalente a un 10% del costo total. Si escribe S, SI, si o sI, mostrar después del total, el precio del apartado.
+Modificar el script recorridos.py, para preguntar al usuario si quiere conocer o no la distancia total de recorridos, y una nueva columna de distancia en kms. Si escribe S, SI, si o sI, mostrar después del total de tiempo, el total de kilómetros recorridos.
 
 ```
-Quieres conocer el monto de apartado (s/n)? Si
+Quieres conocer la distancia total de recorrido? (s/n) Si
 
------------------------------------------------------------------
-RESERVACION                   |CANTIDAD  | PRECIO     | SUBTOTAL    
------------------------------------------------------------------
-Habitación doble              |        7 |    1500.00 |  10500.00 
-Transporte                    |        2 |     700.00 |   1400.00
-Reservación en evento         |        1 |    2000.99 |   2000.99
-Tour en lancha                |        1 |     850.00 |    850.00
-Alimentos y bebidas           |        7 |    1200.00 |   1200.00
------------------------------------------------------------------
-                                               Total |   15950.99‬
-                                            Apartado |    1595.09
+------------------------------------------------------------------
+ORIGEN               | DESTINO             | DISTANCIA  | TIEMPO    
+------------------------------------------------------------------
+Roma Norte           | Tabacalera          | 3.5 km     | 15:00
+Reforma              | Juárez              | 1.2 km     |  8:00
+Alameda              | Condesa             | 5.4 km     | 20:00
+Roma Sur             | Roma Norte          | 0.8 km     |  4:00
+Buenavista           | Del Valle Norte     | 7.4 km     | 30:00
+------------------------------------------------------------------
+                                           Tiempo total |  1:17:00
+                                        Distancia total |  18.3 km
 
 ```

@@ -2,7 +2,7 @@
 
 `reservaciones-funciones.py`
 
-Divide la reservación de Bedu Travels de tal forma que se cuente con:
+Divide la reservación de Bedu Bikes de tal forma que se cuente con:
 * Función para calcular el costo total
 * Función para calcular el costo des apartado
 * Función para ordenar los valores

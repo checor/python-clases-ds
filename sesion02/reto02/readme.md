@@ -15,19 +15,19 @@ $y3/tKHi
 I1d/L-j-
 ```
 
-`reservacion-con-listas.py`
+`recorridos-con-listas.py`
 
-Modifica el script de la sesión anterior `reto03/reservacion.py`, para que cada producto se almancene en una variable tipo lista.
+Modifica el script de la sesión anterior `reto03/recorridos.py`, para que cada recorrido se almancene en una variable tipo lista.
 
 ```
------------------------------------------------------------------
-RESERVACION                                        | PRECIO    
------------------------------------------------------------------
-Habitación doble                                   |   15000.00
-Transporte                                         |    3000.00
-Reservación en evento                              |    3999.99
-Tour en lancha                                     |   21750.00
-Alimentos y bebidas                                |    5000.00
------------------------------------------------------------------
-                                              Total|  164170.00
+-------------------------------------------------------
+ORIGEN               | DESTINO             | TIEMPO    
+-------------------------------------------------------
+Roma Norte           | Tabacalera          |  15:00
+Reforma              | Juárez              |   8:00
+Alameda              | Condesa             |  20:00
+Roma Sur             | Roma Norte          |   4:00
+Buenavista           | Del Valle Norte     |  30:00
+-------------------------------------------------------
+                              Tiempo total |  1:17:00
 ```

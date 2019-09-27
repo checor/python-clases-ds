@@ -2,17 +2,17 @@
 
 `reservaciones/`
 
-Organizar el programa comparador de precios de Bedu Travels en un paquete llamado `comparador` con dos módulos: `mejor_precio.py` y `precio_promedio.py`. El primer módulo indicará el mejor destino y precio, mientras que el segundo le indicará el precio promedio de todos los destinos que el usuario ha comparado.
+Organizar el programa calculador de tiempos de Bedu Bikes en un paquete llamado `tiempos` con dos módulos: `mas_centrico.py` y `tiempo_promedio.py`. El primer módulo indicará el lugar mas céntrico, mientras que el segundo le indicará el tiempo de desplazamiento promedio de todos los destinos que el usuario ha capturado.
 
 ```
 $ python3 main.py 
-El mejor precio es Ixtapa por $2920
-El precio promerio de los destinos es $4773.33
+El lugar más centrico es Júarez con 30 minutos de ida y 38 de vuelta.
+El tiempo promedio de desplazamiento es 42 minutos.
 
 $ tree
 ├── main.py
-└── comparador
+└── tiempos
     ├── __init__.py
-    ├── mejor_precio.py
-    └── precio_promedio.py
+    ├── mas_centrico.py
+    └── tiempo_promedio.py
 ```

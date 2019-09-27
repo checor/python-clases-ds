@@ -1,9 +1,9 @@
 ## Reto03
 
-`precios_hoteles.ipynb`
+`distancia_tiempo.ipynb`
 
-Crear una libreta para mostrar con Matplotlib, los precios de los hoteles en un digrama de caja.
-Dividir en 3 ejes la información de acuerdo al rango de precios.
+Crear una libreta para mostrar con Matplotlib, los la distancias recorridas vs. el tiempo realizado.
+Dividir en 3 ejes la información de acuerdo al rango de distancias.
 
 ![Hoteles](hoteles.png)
 

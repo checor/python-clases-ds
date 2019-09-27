@@ -1,19 +1,24 @@
 ## Reto 03
 
-Para el sistema de reservación, agrega una nueva clase llamada Hotel, que herede de producto, para incluir información extra acerca del mismo en la reservación. El subtotal ahora será calculado por cantidad * precio * personas.
+Para el sistema de recorridos, agrega una nueva clase llamada Reporte, que herede de Recorrido, para incluir información extra acerca de un reporte con ese recorrido (falla de bici, problema con la estación...). Su tiempo o distancia NO deben contar para los totales, pero si deben mostarse.
 
-[Clase Hotel](./hotel.png)
+[Clase Reporte](./repote.png)
 
-Agregar la columna de Personas, y utilizar la función `isinstance`, para saber si es hotel o producto.
+Agregar la columna de Personas, y utilizar la función `isinstance`, para saber si es un recorrido normal o con reporte.
 
 ```
-Desea conocer el apartado (si/no)?si
----------------------------------------------------------------
-RESERVACION                     |CANTIDAD |PERSONAS |PRECIO   |SUBTOTAL 
-Hotel Plus                      |        3|        2| 15000.00| 90000.00
-Alimentos y bebidas             |        2|N/A      |  5000.00| 10000.00
-Transporte                      |        2|N/A      |  3000.00|  6000.00
-Tour en lancha                  |        1|N/A      |  2170.00|  2170.00
-                                                        Total |108170.00
-                                                     Apartado | 10817.00
+Quieres conocer la distancia total de recorrido? (s/n) Si
+Quieres conocer el tiempo total de recorrido? (s/n) Si
+
+--------------------------------------------------------------------------------
+ORIGEN               | DESTINO             | DISTANCIA  | TIEMPO | REP | CAUSA |
+--------------------------------------------------------------------------------
+Buenavista           | Del Valle Norte     | 7.4 km     | 30:00  | No  |       |
+Alameda              | Condesa             | 5.4 km     | 20:00  | No  |       |
+Roma Norte           | Tabacalera          | 3.5 km     | 15:00  | No  |       |
+Reforma              | Juárez              | 1.2 km     |  8:00  | No  |       |
+Roma Sur             | Roma Norte          | 0.8 km     |  4:00  | Si  | Falla |
+--------------------------------------------------------------------------------
+                                                          Tiempo total |  1:13:00
+                                                       Distancia total |  17.5 km
 ```

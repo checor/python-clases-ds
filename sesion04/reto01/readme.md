@@ -1,18 +1,18 @@
 ## Reto 01
 
-`hoteles.txt`
+`estaciones.py`
 
-Pedir al usuario una lista, con nombre un hotel, ubicación, y precio por habitación. Guardar la información en un archivo llamado hoteles.txt, separado por tabulador. Anexar al final la información si ya existe el archivo.
+Pedir al usuario una lista, con el nombre de un lugar, latitud y longitud. Guardar la información en un archivo llamado estaciones.txt, separado por tabulador. Anexar al final la información si ya existe el archivo.
 
 ```
-$ python3 hoteles_txt.py 
-Inserte nombre del hotel: Exelaris
-Inserte ubicación: Celaya
-Inserte precio por noche: 1500
-Agregar otro hotel (s/N)? s
+$ python3 lugares.py 
+Inserte nombre del lugar: Roma
+Inserte latitud: 14.5
+Inserte longitud: 13.4
+Agregar otro lugar? (s/N)? s
 
-Inserte nombre del hotel: Casablanca
-Inserte ubicación: Cardenas
-Inserte precio por noche: 800
-Agregar otro hotel (s/N)? n
+Inserte nombre del lugar: Coyoacán
+Inserte latitud: 24.3
+Inserte longitud: 33.4
+Agregar otro lugar (s/N)? n
 ```
