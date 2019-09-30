@@ -1,6 +1,6 @@
 ## Reto final
 
-`bedu_travels_api.py`
+`bedu_bikes_api.py`
 
 Crea un API sencilla en JSON para modificar una reservación utilizando Bottle y sus [verbos](https://bottlepy.org/docs/dev/api.html#bottle.Bottle.get), para agregar, quitar o editar recorridos de usuarios, almacenada en un archivo CSV. Debe de contar con las siguientes direcciones:
 
