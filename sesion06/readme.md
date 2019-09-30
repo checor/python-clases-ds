@@ -4,7 +4,7 @@ Servidores Web y APIs
 
 ## Objetivos
 
-Conocer y realizar un servidor web básico que pueda mostrar información estática y dinámica al usuario, así como fiechero. Conocer el funcionamiento de un API y realizar peticiones a una, así como autentificación.
+Conocer y realizar un servidor web básico que pueda mostrar información estática y dinámica al usuario, así como fichero. Conocer el funcionamiento de un API y realizar peticiones a una, así como autentificación.
 
 ## Organización de la sesión
 
