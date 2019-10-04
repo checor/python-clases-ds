@@ -6,8 +6,10 @@ De forma similar al ejemplo anterior, modifica `mas_centrico_modulo.py` para que
 
 
 ```python
-$ python3 mejor_precio.py 
-El mejor precio es Ixtapa por $2920
+$ python3 mas_centrico_modulo.py
+
+El lugar más centrico es Roma con 51 minutos de ida y 45 de vuelta.
+
 $ ipython3
 Python 3.6.8 (default, Jan 14 2019, 11:02:34) 
 Type 'copyright', 'credits' or 'license' for more information
