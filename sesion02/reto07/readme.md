@@ -9,13 +9,17 @@ Divide la reservación de Bedu Bikes de tal forma que se cuente con:
 * Una función para imprimir productos
 
 ```
-Desea conocer el apartado (si/no)?si
----------------------------------------------------------------
-RESERVACION                     |CANTIDAD |PRECIO   |SUBTOTAL 
-Habitación doble                |        3|150000.00|450000.00
-Alimentos y bebidas             |        2|  5000.00| 10000.00
-Transporte                      |        2|  3000.00|  6000.00
-Tour en lancha                  |        1|  2170.00|  2170.00
-                                              Total |468170.00
-                                           Apartado | 46817.00
+Quieres conocer la distancia total de recorrido? (s/n) Si
+
+------------------------------------------------------------------
+ORIGEN               | DESTINO             | DISTANCIA  | TIEMPO    
+------------------------------------------------------------------
+Buenavista           | Del Valle Norte     | 7.4 km     | 30:00
+Alameda              | Condesa             | 5.4 km     | 20:00
+Roma Norte           | Tabacalera          | 3.5 km     | 15:00
+Reforma              | Juárez              | 1.2 km     |  8:00
+Roma Sur             | Roma Norte          | 0.8 km     |  4:00
+------------------------------------------------------------------
+                                           Tiempo total |  1:17:00
+                                        Distancia total |  18.3 km
 ```
