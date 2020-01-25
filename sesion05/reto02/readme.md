@@ -1,6 +1,6 @@
 ## Reto 02
 
-A la clase Recorrido, realizada anteriormente, utilizar el decorador @property, para que el subtotal sea llamado como un atributo, calculado por producto * cantidad. Utilizarse también para ordenamiento.
+A la clase Recorrido, realizada anteriormente, utilizar el decorador @property, para que la velocidad y multa sea llamado como un atributo. Ordenar los resultados por tiempo y mostrar una tabla.
 
 ```
 Quieres conocer la distancia total de recorrido? (s/n) Si
