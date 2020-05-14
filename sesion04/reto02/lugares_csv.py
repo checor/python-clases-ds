@@ -1,21 +1,21 @@
 import csv
 import datetime
 
-def agrega_hotel():
-    nombre = input("Inserte nombre del hotel: ")
-    ubicacion = input("Inserte ubicación: ")
-    precio = input("Inserte precio por noche: ")
+def agrega_lugar():
+    nombre = input("Inserte nombre del lugar: ")
+    latitud = input("Inserte latitud: ")
+    longitud = input("Inserte longitud: ")
     fecha_actual = datetime.datetime.now()
-    with open("hoteles.csv", "a") as fcsv:
+    with open("lugares.csv", "a") as fcsv:
         writer = csv.writer(fcsv)
-        writer.writerow([nombre, ubicacion, precio, fecha_actual])
+        writer.writerow([nombre, latitud, longitud, fecha_actual])
 
 
 if __name__ == "__main__":
     cont = True
     while cont:
-        agrega_hotel()
-        c = input("Agregar otro hotel (s/N)? ")
+        agrega_lugar()
+        c = input("Agregar otro lugar (s/N)? ")
         c = c.lower()
         if c.startswith("n") or c == "":
             cont = False
