@@ -7,7 +7,7 @@ def get_info(path, file_type):
         with open(path, 'r') as f:
             if file_type == 'json':
                 datos = json.load(f)
-                info = [[x['nombre'], x['ubicacion'], x['precio']] for x in datos]
+                info = [[x['nombre'], x['latitud'], x['longitud'], x['fecha_actual']] for x in datos]
             elif file_type == 'csv':
                 reader = csv.reader(f)
                 info = list(reader)
@@ -27,7 +27,7 @@ def save_info(info, path, file_type):
     print(info)
     with open(path, 'w') as f:
         if file_type == 'json':
-            datos = [{'nombre': x[0], 'ubicacion': x[1], 'precio': x[2]} for x in info ]
+            datos = [{'nombre': x[0], 'latitud': x[1], 'longitud': x[2], 'fecha_actual': x[3]} for x in info ]
             json.dump(datos, f, indent=4)
         elif file_type == 'csv':
             writer = csv.writer(f)
