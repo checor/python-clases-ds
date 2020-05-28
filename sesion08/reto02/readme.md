@@ -1,21 +1,21 @@
 ## Reto 02
 
- Utilizando el ejemplo archivo de ejemplo `recocrridos.csv`, crear una libreta de Jupyter en la cual se tenga información del:
+ Utilizando el dataset de precios de hoteles `hoteles.csv`, crear una libreta de Jupyter en la cual se tenga información del:
 
-* Tiempo mayor, tiempo menor y promedio de tiempos de un usuario.
-* Promedio y desviación estándar de distancias recorridas
-* Usuario con mejor velocidad km/hora.
+* Precio mayor, Precio menor y promedio de precios de un destino.
+* Promedio y desviación estándar de calificaciones
+* Hotel con mejor relación precio / calificacion.
 
 
 ```
 
-Mayor tiempo en Bici: 54 min
-Menor tiempo en Bici: 4 min
-Promedio tiempo: 14 min
+Mayor precio: Apartment WS Mouffetard $6204
+Menor precio: Hotel Mistral $907
+Promedio precio: $1305
 
-Promedio de diatancia: 3.04 kms
-Desviación estándar: 1.5 kms
+Promedio de calificaciones: 4.3.9 de 5
+Desviación estándar: 1.2
 
-Usuario más rápido: 3
+Hotel precio/calificacion: Hotel Les Matins - $4043 - 5.0
 
 ```
